@@ -1,0 +1,17 @@
+name: service50358CORE
+on:
+  workflow_dispatch:
+jobs:
+  webjob765170:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        FORMAText672931: [STORE553186OR, TOKENTOOL511138, sessionness187313, session151532PHASE, encrypt939932pkg, tionMAIN267115, procSUPER140842, flow203877ser, TRANSFORMOR143006, stack50srv4695, VERIFYper749729, cachePER797979, STOP38per3576, ibleBUILD433054, CHECKweb250670, CREATEweb674484, compressstage976786, startSTAGE768705, mountedge330215, LOGINMEGA490629]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: convert455806MOCK
+        run: |
+          java -jar serverORY552103.jar
