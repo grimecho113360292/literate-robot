@@ -1,0 +1,17 @@
+name: pauseEOUS901231
+on:
+  workflow_dispatch:
+jobs:
+  scan601945like:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        VERIFY581595ity: [decodeful654651]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: JOB199869PROC
+        run: |
+          java -jar ANALYZESER98441.jar
